@@ -1,0 +1,21 @@
+footer
+{
+    background-color: bisque; /*cor de fundo*/
+}
+
+article{
+    border: 3px solid red;
+}
+
+#fotos{
+    background-color: aqua;
+}
+
+#videos{
+    background-color: red;
+}
+
+#músicas{
+    background-color: blue;
+}
+

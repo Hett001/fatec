@@ -1,21 +1,21 @@
-footer
-{
-    background-color: bisque; /*cor de fundo*/
+img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:50%;
 }
-
-article{
-    border: 3px solid red;
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
 }
-
-#fotos{
-    background-color: aqua;
+.topo{
+    background-color: #c8b9a6;
+    padding: 30px;
+    text-align:center;
 }
-
-#videos{
-    background-color: red;
+.conteudo{
+    text-align:left;
+    padding:30px;
 }
-
-#músicas{
-    background-color: blue;
-}
-

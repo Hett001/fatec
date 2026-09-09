@@ -1,21 +1,13 @@
-img{
-    width:250px;
-    height:250px;
-    object-fit:cover;
-    border-radius:50%;
+table, tr, th, td{
+    border: 1px, solid black;
+    border-collapse: collapse;
 }
-body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333333;
+.sabores{
+    color:blue;
+    background-color:yellow;
 }
-.topo{
-    background-color: #c8b9a6;
-    padding: 30px;
-    text-align:center;
-}
-.conteudo{
-    text-align:left;
-    padding:30px;
+
+table{
+    margin-left: 30%;
+    margin-right: 30%;
 }

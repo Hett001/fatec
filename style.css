@@ -1,13 +1,43 @@
-table, tr, th, td{
-    border: 1px, solid black;
-    border-collapse: collapse;
-}
-.sabores{
-    color:blue;
-    background-color:orange;
+footer
+{
+    background-color: bisque; /*cor de fundo*/
 }
 
-table{
-    margin-left: 30%;
-    margin-right: 30%;
+article{
+    border: 3px solid red;
 }
+
+#fotos{
+    background-color: aqua;
+}
+
+#videos{
+    background-color: red;
+}
+#videos video{
+    width:auto;
+}
+
+#músicas{
+    background-color: blue;
+}
+header nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display:inline;
+    border: 1px solid red;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:darkred;
+}
+
+
+

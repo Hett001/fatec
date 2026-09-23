@@ -1,95 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br"
 <head>
+    <title> site de entreterimento </title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Exercícios - JavaScript</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #1e5887;
-            color: #333;
-        }
-        .exercicio {
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h2 { color: #0066cc; font-size: 1.2em; }
-        label { display: inline-block; width: 200px; margin-top: 10px; }
-        input { padding: 5px; margin-top: 5px; }
-        button { padding: 8px 15px; background-color: #0066cc; color: white; border: none; border-radius: 4px; cursor: pointer; margin-top: 10px; }
-        button:hover { background-color: #004999; }
-        .console-aviso { font-style: italic; color: #666; font-size: 0.9em; }
-    </style>
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0>"
+    <meta name="keywords" content="entretenimento, música, videos,fotos">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <header>
+        <nav>
+            <ul> 
+                <li> <a href="#videos"> videos </a> </li>
+                <li> <a href="#músicas"> músicas </a> </li>
+                <li> <a href="#fotos"> fotos </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="videos">
+        <h2> videos</h2>
+        <iframe width="30%" height="70%" src="https://www.youtube.com/embed/7qfbi3HACV8" title="Grand Theft Auto: San Andreas (Official Theme Song)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="30%" height="70%" src="https://www.youtube.com/embed/7qfbi3HACV8" title="Grand Theft Auto: San Andreas (Official Theme Song)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <h1>Lista de Exercícios Integrada</h1>
+        </article>       
+           
+    </article>
+    <article id="fotos">
+        <h2> fotos</h2>
+    </article>
 
-    <div class="exercicio">
-        <h2>01. Cálculo de Aumento de Salário</h2>
-        <label>Salário Atual:</label>
-        <input type="number" id="salario01" step="0.01"><br>
-        <label>Percentual:</label>
-        <input type="number" id="percentual01" step="0.01"><br>
-        <button onclick="ex01()">Calcular</button>
-        <p id="res01"></p>
-    </div>
-
-    <div class="exercicio">
-        <h2>02. Área de um Triângulo</h2>
-        <label>Base:</label>
-        <input type="number" id="base02" oninput="ex02()"><br>
-        <label>Altura:</label>
-        <input type="number" id="altura02" oninput="ex02()"><br>
-        <label>Área:</label>
-        <input type="text" id="area02" readonly>
-    </div>
-
-    <div class="exercicio">
-        <h2>03. Média Ponderada</h2>
-        <label>Nota 1 (30%):</label>
-        <input type="number" id="nota1_03" step="0.01"><br>
-        <label>Nota 2 (70%):</label>
-        <input type="number" id="nota2_03" step="0.01"><br>
-        <button onclick="ex03()">Calcular Média</button><br>
-        <label id="lblResultado03" style="width: auto; font-weight: bold; margin-top: 10px;">Média Final: </label>
-    </div>
-
-    <div class="exercicio">
-        <h2>04. Idade Detalhada e Previsão 2050</h2>
-        <label>Ano de Nascimento:</label>
-        <input type="number" id="ano04"><br>
-        <button onclick="ex04()">Calcular e Ver no Console</button>
-        <p class="console-aviso"> Abra o Console do navegador (F12).</p>
-    </div>
-
-    <div class="exercicio">
-        <h2>05. Consumo Médio de Gasolina</h2>
-        <label>Distância (km):</label>
-        <input type="number" id="distancia05" step="0.01"><br>
-        <label>Volume (litros):</label>
-        <input type="number" id="volume05" step="0.01"><br>
-        <button onclick="ex05()">Calcular Consumo</button>
-        <p id="res05"></p>
-    </div>
-
-    <div class="exercicio">
-        <h2>06. Folha de Pagamento</h2>
-        <p class="console-aviso">Funcionário trabalhou 62h. Valor hora normal padrão: R$ 20,00.</p>
-        <button onclick="ex06()">Calcular Folha (Ver no Console)</button>
-    </div>
-
-    <div class="exercicio">
-        <h2>07. Número Randômico</h2>
-        <button onclick="ex07()">Gerar Número</button>
-        <p id="resNumero07"></p>
-        <p id="resParImpar07" style="font-weight: bold;"></p>
-    </div>
-    
+    <article id="músicas">
+    <h2> músicas</h2>
+    </article>
+    </main>
+    <footer>
+        <section>
+            <iframe width="40%"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.037889615343!2d-47.449348699999994!3d-23.5311396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b72bdd65027%3A0xb94c5e9f90d48401!2sFatec%20Votorantim!5e0!3m2!1spt-BR!2sbr!4v1787705707619!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+    </footer>
+    <section>
+        
+        <p> endereço: Rua xxx
+        <p> Próximo a xxx
+    </section>
 </body>
-</html>
+
+
+        
